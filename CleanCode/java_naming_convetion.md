@@ -18,13 +18,13 @@
 의미를 함축하거나 독자(코드를 읽는 사람)가 사전지식을 가지고 있다고 가정하지 말자.
 
 - 예시 1
-Bad
-int d; // elapsed time in days
-Good
-int elapsedTimeInDays;
-int daysSinceCreation;
-int daysSinceModification;
-int fileAgeInDays;
+    - Bad
+        - int d; // elapsed time in days
+    - Good
+        - int elapsedTimeInDays;
+        - int daysSinceCreation;
+        - int daysSinceModification;
+        - int fileAgeInDays; 
 
 - 예시 2
 ```java
