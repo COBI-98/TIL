@@ -21,3 +21,7 @@
 
 ## 📌Algorithm
 - [플로이드-워셜](https://github.com/COBI-98/TIL/blob/main/Algorithm/Floyd_warshall.md)
+
+## 📌CleanCode
+- [자바 명명 규칙](https://github.com/COBI-98/TIL/blob/main/CleanCode/java_naming_convetion.md)
+- [커밋 컨벤션](https://github.com/COBI-98/TIL/blob/main/CleanCode/commit_convention.md)
