@@ -25,3 +25,6 @@
 ## 📌CleanCode
 - [자바 명명 규칙](https://github.com/COBI-98/TIL/blob/main/CleanCode/java_naming_convetion.md)
 - [커밋 컨벤션](https://github.com/COBI-98/TIL/blob/main/CleanCode/commit_convention.md)
+
+## 📌 Java
+- [스트림 정리](https://github.com/COBI-98/TIL/blob/main/Java/stream.md)
