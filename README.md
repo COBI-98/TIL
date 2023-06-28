@@ -24,6 +24,8 @@
 - [LIS 최장 증가 부분 수열](https://github.com/COBI-98/TIL/blob/main/Algorithm/Longest_Increasing_Subsequence.md)
 - [LCS 최장 공통 부분 수열](https://github.com/COBI-98/TIL/blob/main/Algorithm/Longest_Common_Subsequence.md)
 
+## 📌CS
+- [OOP](https://github.com/COBI-98/TIL/blob/main/CS/object_oriented_programming.md)
 
 ## 📌CleanCode
 - [자바 명명 규칙](https://github.com/COBI-98/TIL/blob/main/CleanCode/java_naming_convetion.md)
@@ -31,3 +33,6 @@
 
 ## 📌 Java
 - [스트림 정리](https://github.com/COBI-98/TIL/blob/main/Java/stream.md)
+- [Assert 키워드  정리](https://github.com/COBI-98/TIL/blob/main/Java/assertions.md)
+
+
