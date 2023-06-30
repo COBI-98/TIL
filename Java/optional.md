@@ -21,7 +21,7 @@ Optional<T> optional = findById(Id id);
 🟢 Optional.empty() :
 
 비어있는 Optional 객체로 생성한다. <br>
-Wrapper 클래스이기에 내부에 있는 Product 객체는 값이 없을수도 있고, 객체는 Optional 내부적으로 미리 생성해놓은 싱글톤 인스턴스이다.
+Wrapper 클래스이기에 내부에 있는 Product 객체는 값이 없을수도 있고, <br> 객체는 Optional 내부적으로 미리 생성해놓은 싱글톤 인스턴스이다.
 ```java
 Optional<Product> optionalProduct = Optional.empty();
  ```
@@ -97,9 +97,7 @@ Optional 내부에 담긴 객체가 null이 아니라면 담겨있는 객체를 
 
 ## Optional의 orElse와 orElseGet 차이
 
-<br>
-
-## orElse VS orElseGet
+### orElse VS orElseGet
 Optional API의 단말 연산에는 orElse와 orElseGet 함수가 있다. <br> 
  Optional 객체가 비어 있을 때 대체 값을 제공하는 데 사용되지만, <br> 두 메서드 사이에는 동작 방식에서의 차이가 있다.
 
@@ -130,7 +128,8 @@ Optional<String> optionalValue = Optional.empty();
 String result = optionalValue.orElseGet(() -> getDefaultValue());
 ```
 
-optionalValue가 비어있는 경우에만 getDefaultValue() 메서드가 호출되어 대체 값을 생성한다. optionalValue가 비어있지 않은 경우, getDefaultValue()는 호출되지 않는다.
+optionalValue가 비어있는 경우에만 getDefaultValue() 메서드가 호출되어 대체 값을 생성한다. <br>
+`optionalValue가 비어있지 않은 경우, getDefaultValue()는 호출되지 않는다.`
 
 <br>
 
