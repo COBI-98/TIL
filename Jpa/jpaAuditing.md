@@ -1,11 +1,11 @@
 # JPA Auditing 정리 및 구현
 
 JPA에서 'Audit'는 감시하다 라는 뜻으로 사용된다. <br>
- 각 데이터 마다 '누가', '언제' 데이터를 생성하고 변경했는지 감시한다는 의미이다. 엔티티 클래스에는 공통적으로 들어가는 필드가 있다. 예를들어 '등록일자'와 '수정일자' 같은 것이다
+ 각 데이터 마다 '누가', '언제' 데이터를 생성하고 변경했는지 감시한다는 의미이다. <br> 엔티티 클래스에는 공통적으로 들어가는 필드가 있다. 예를들어 '등록일자'와 '수정일자' 같은 것이다
 
 즉, JPA에서 시간을 자동으로 값을 넣어주는 기능이다.
 
-Entity를 영속성 컨텍스트에 저장하거나 조회를 수행한 후에 update를 하는 경우 매번 시간 데이터를 입력하여 주어야 하는데, JPA Auditing을 이용하면 자동으로 시간을 매핑하여 데이터베이스의 테이블에 넣어주게 된다.
+Entity를 영속성 컨텍스트에 저장하거나 조회를 수행한 후에 update를 하는 경우 매번 시간 데이터를 입력하여 주어야 하는데,<br> JPA Auditing을 이용하면 자동으로 시간을 매핑하여 데이터베이스의 테이블에 넣어주게 된다.
 
 `JPA Audit은 데이터의 변경 기록을 추적하고 데이터 변화에 대한 이력을 기록하는 것을 목적으로 한다.`
 
@@ -40,10 +40,10 @@ public abstract class BaseEntity {
 추상클래스에 사용할 수 있으며 엔티티가 될 수 없고 상속을 통해서 사용해야만 한다.
 
 - @CreateDate
-JPA 저장소가 save()할 때 자동으로 생성시간을 만듭니다. ( 수정시간도 똑같이 생성된다.)
+JPA 저장소가 save()할 때 자동으로 생성시간을 만든다. ( 수정시간도 똑같이 생성된다.)
 
 - @LastModifiedDate
-JPA 저장소가 수정할 때 자동으로 생성시간을 만듭니다
+JPA 저장소가 수정할 때 자동으로 생성시간을 만든다
 
 <br>
 <br>
@@ -82,8 +82,8 @@ public class Order extends BaseEntity
 public class Product extends BaseEntity
 ```
 
-<img src="../ETC/imgs/jpaAuditing01.jpg" width="400" alt="JpaAuditing"></img>
-<img src="../ETC/imgs/jpaAuditing02.jpg" width="400" alt="JpaAuditing"></img>
+<img src="../ETC/imgs/jpaAuditing01.jpg" width="500" alt="JpaAuditing"></img> <br>
+<img src="../ETC/imgs/jpaAuditing02.jpg" width="500" alt="JpaAuditing"></img>
 >주문 추가 시 변경감지로 자동 시간 업데이트 
 
 <br>
@@ -93,4 +93,4 @@ public class Product extends BaseEntity
 
 <br>
 
-이와 같이 주문 클래스와 같이 직접 CreatedBy, UpdatedBy를 설정하지 않아도 생성과 수정 시 자동으로 추가가 된다. 개발자는 엔티티 마다 해야하는 반복적인 일을 JPA Data를 통해 간단하게 만들 수 있다.
+이와 같이 주문 클래스와 같이 직접 CreatedBy, UpdatedBy를 설정하지 않아도 생성과 수정 시 자동으로 추가가 된다. <br>개발자는 엔티티 마다 해야하는 반복적인 일을 JPA Data를 통해 간단하게 만들 수 있다.
