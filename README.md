@@ -35,4 +35,6 @@
 - [스트림 정리](https://github.com/COBI-98/TIL/blob/main/Java/stream.md)
 - [Assert 키워드  정리](https://github.com/COBI-98/TIL/blob/main/Java/assertions.md)
 
+## 📌 Jpa
+- [JpaAuditing](https://github.com/COBI-98/TIL/blob/main/Jpa/jpaAuditing.md)
 
