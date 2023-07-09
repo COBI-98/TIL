@@ -25,10 +25,12 @@
 - [LCS 최장 공통 부분 수열](https://github.com/COBI-98/TIL/blob/main/Algorithm/Longest_Common_Subsequence.md)
 
 ## 📌CS
+- [Oauth 개념 동작방식 정리](https://github.com/COBI-98/TIL/blob/main/CS/object_oriented_programming.md)
 - [HTTP/HTTPS 정리](https://github.com/COBI-98/TIL/blob/main/CS/http.md)
 - [OOP](https://github.com/COBI-98/TIL/blob/main/CS/object_oriented_programming.md)
 - [REST](https://github.com/COBI-98/TIL/blob/main/CS/rest.md)
 - [SSL/TLS 정리](https://github.com/COBI-98/TIL/blob/main/CS/transport_layer_security.md)
+  
 
   
 ## 📌CleanCode
@@ -46,7 +48,8 @@
 - [Cookie](https://github.com/COBI-98/TIL/blob/main/NetWork/cookie.md)
 - [JWT](https://github.com/COBI-98/TIL/blob/main/NetWork/jwt.md)
 - [Session](https://github.com/COBI-98/TIL/blob/main/NetWork/session.md)
-
+- [아키텍처패턴(CSR,SSR) (SPA,MPA) 정리](https://github.com/COBI-98/TIL/blob/main/NetWork/webApplication_architectures_patterns.md)
+  
 ## 📌 Spring
 - [Spring AOP 정리](https://github.com/COBI-98/TIL/blob/main/Spring/aspect_oriented_programming.md)
-
+  
