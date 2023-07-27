@@ -5,7 +5,7 @@ Trowable 클래스는 예외 처리를 할수 있는 최상위 클래스이다.
 
 그 중, Exception과 Error는 Throwable의 상속을 받는다.
 
-<img src="../ETC/imgs/exception01.png" width="500" alt="exception01"></img>
+<img src="../ETC/imgs/throwable01.png" width="500" alt="throwable01"></img>
 
 Error와 Exception은 둘 다 프로그램 실행 중 발생하는 문제를 나타내는 개념이지만, 각각 다른 종류의 문제를 나타낸다. <br> Java에서는 Error와 Exception이 모두 Throwable 클래스의 하위 클래스이며,<br> 프로그램 실행 도중 이러한 문제를 처리하는 데 사용된다.
 
