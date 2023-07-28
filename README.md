@@ -23,6 +23,7 @@
 - [플로이드-워셜](https://github.com/COBI-98/TIL/blob/main/Algorithm/Floyd_warshall.md)
 - [LIS 최장 증가 부분 수열](https://github.com/COBI-98/TIL/blob/main/Algorithm/Longest_Increasing_Subsequence.md)
 - [LCS 최장 공통 부분 수열](https://github.com/COBI-98/TIL/blob/main/Algorithm/Longest_Common_Subsequence.md)
+- [정수론](https://github.com/COBI-98/TIL/blob/main/Algorithm/number_theory.md)
 
 ## 📌CS
 - [Oauth 개념 동작방식 정리](https://github.com/COBI-98/TIL/blob/main/CS/object_oriented_programming.md)
@@ -31,7 +32,6 @@
 - [REST](https://github.com/COBI-98/TIL/blob/main/CS/rest.md)
 - [SSL/TLS 정리](https://github.com/COBI-98/TIL/blob/main/CS/transport_layer_security.md)
   
-
   
 ## 📌CleanCode
 - [자바 명명 규칙](https://github.com/COBI-98/TIL/blob/main/CleanCode/java_naming_convetion.md)
@@ -39,11 +39,15 @@
 
 ## 📌 Java
 - [스트림 정리](https://github.com/COBI-98/TIL/blob/main/Java/stream.md)
-- [Assert 키워드  정리](https://github.com/COBI-98/TIL/blob/main/Java/assertions.md)
+- [optional 클래스 정리](https://github.com/COBI-98/TIL/blob/main/Java/optional.md)
+- [Assert 키워드 정리](https://github.com/COBI-98/TIL/blob/main/Java/assertions.md)
+- [Error와 Exception 정리](https://github.com/COBI-98/TIL/blob/main/Java/throwable.md)
 
 ## 📌 Jpa
 - [JpaAuditing](https://github.com/COBI-98/TIL/blob/main/Jpa/jpaAuditing.md)
-
+- [JPQL](https://github.com/COBI-98/TIL/blob/main/Jpa/jpql.md)
+- [Locking 전략](https://github.com/COBI-98/TIL/blob/main/Jpa/locking.md)
+  
 ## 📌 NetWork
 - [Cookie](https://github.com/COBI-98/TIL/blob/main/NetWork/cookie.md)
 - [JWT](https://github.com/COBI-98/TIL/blob/main/NetWork/jwt.md)
