@@ -38,15 +38,19 @@
 - [커밋 컨벤션](https://github.com/COBI-98/TIL/blob/main/CleanCode/commit_convention.md)
 
 ## 📌 Java
-- [스트림 정리](https://github.com/COBI-98/TIL/blob/main/Java/stream.md)
-- [optional 클래스 정리](https://github.com/COBI-98/TIL/blob/main/Java/optional.md)
 - [Assert 키워드 정리](https://github.com/COBI-98/TIL/blob/main/Java/assertions.md)
+- [함수형 프로그래밍](https://github.com/COBI-98/TIL/blob/main/Java/functional_programming.md)
+- [optional 클래스 정리](https://github.com/COBI-98/TIL/blob/main/Java/optional.md)
+- [static 키워드 정리](https://github.com/COBI-98/TIL/blob/main/Java/static.md)
+- [스트림 정리](https://github.com/COBI-98/TIL/blob/main/Java/stream.md)
 - [Error와 Exception 정리](https://github.com/COBI-98/TIL/blob/main/Java/throwable.md)
+- [toString 키워드](https://github.com/COBI-98/TIL/blob/main/Java/toString.md)
 
 ## 📌 Jpa
 - [JpaAuditing](https://github.com/COBI-98/TIL/blob/main/Jpa/jpaAuditing.md)
 - [JPQL](https://github.com/COBI-98/TIL/blob/main/Jpa/jpql.md)
 - [Locking 전략](https://github.com/COBI-98/TIL/blob/main/Jpa/locking.md)
+- [RepositoryImpl_QueryDSL관리](https://github.com/COBI-98/TIL/blob/main/Jpa/repositoryImpl.md)
   
 ## 📌 NetWork
 - [Cookie](https://github.com/COBI-98/TIL/blob/main/NetWork/cookie.md)
