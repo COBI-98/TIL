@@ -23,7 +23,9 @@
 - [플로이드-워셜](https://github.com/COBI-98/TIL/blob/main/Algorithm/Floyd_warshall.md)
 - [LIS 최장 증가 부분 수열](https://github.com/COBI-98/TIL/blob/main/Algorithm/Longest_Increasing_Subsequence.md)
 - [LCS 최장 공통 부분 수열](https://github.com/COBI-98/TIL/blob/main/Algorithm/Longest_Common_Subsequence.md)
+- [BitMask (비트마스킹)](https://github.com/COBI-98/TIL/blob/main/Algorithm/bitmask.md)
 - [정수론](https://github.com/COBI-98/TIL/blob/main/Algorithm/number_theory.md)
+- [누적합](https://github.com/COBI-98/TIL/blob/main/Algorithm/prefixSum.md)
 
 ## 📌CS
 - [Oauth 개념 동작방식 정리](https://github.com/COBI-98/TIL/blob/main/CS/object_oriented_programming.md)
@@ -59,5 +61,8 @@
 - [아키텍처패턴(CSR,SSR) (SPA,MPA) 정리](https://github.com/COBI-98/TIL/blob/main/NetWork/webApplication_architectures_patterns.md)
   
 ## 📌 Spring
+- [@AutoConfigureRestDocs](https://github.com/COBI-98/TIL/blob/main/Spring/%40AutoConfigureRestDocs.md)
+- [Rest-Assured](https://github.com/COBI-98/TIL/blob/main/Spring/RestAssured.md)
 - [Spring AOP 정리](https://github.com/COBI-98/TIL/blob/main/Spring/aspect_oriented_programming.md)
+- [Spring IoC와 DI 정리](https://github.com/COBI-98/TIL/blob/main/Spring/dependency_injection.md)
   
