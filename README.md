@@ -24,6 +24,7 @@
 - [LIS 최장 증가 부분 수열](https://github.com/COBI-98/TIL/blob/main/Algorithm/Longest_Increasing_Subsequence.md)
 - [LCS 최장 공통 부분 수열](https://github.com/COBI-98/TIL/blob/main/Algorithm/Longest_Common_Subsequence.md)
 - [BitMask (비트마스킹)](https://github.com/COBI-98/TIL/blob/main/Algorithm/bitmask.md)
+- [분리집합](https://github.com/COBI-98/TIL/blob/main/Algorithm/disjoint_set.md)
 - [정수론](https://github.com/COBI-98/TIL/blob/main/Algorithm/number_theory.md)
 - [누적합](https://github.com/COBI-98/TIL/blob/main/Algorithm/prefixSum.md)
 
@@ -33,13 +34,19 @@
 - [OOP](https://github.com/COBI-98/TIL/blob/main/CS/object_oriented_programming.md)
 - [REST](https://github.com/COBI-98/TIL/blob/main/CS/rest.md)
 - [SSL/TLS 정리](https://github.com/COBI-98/TIL/blob/main/CS/transport_layer_security.md)
-  
-  
+
 ## 📌CleanCode
 - [자바 명명 규칙](https://github.com/COBI-98/TIL/blob/main/CleanCode/java_naming_convetion.md)
 - [커밋 컨벤션](https://github.com/COBI-98/TIL/blob/main/CleanCode/commit_convention.md)
 
+  
+## 📌DataStructure
+- [트리](https://github.com/COBI-98/TIL/blob/main/DataStructure/Tree.md)
+- [덱](https://github.com/COBI-98/TIL/blob/main/DataStructure/deque.md)
+  
+
 ## 📌 Java
+- [Java17 버전 정리](https://github.com/COBI-98/TIL/blob/main/Java/JDK17.md)
 - [Assert 키워드 정리](https://github.com/COBI-98/TIL/blob/main/Java/assertions.md)
 - [함수형 프로그래밍](https://github.com/COBI-98/TIL/blob/main/Java/functional_programming.md)
 - [optional 클래스 정리](https://github.com/COBI-98/TIL/blob/main/Java/optional.md)
@@ -62,7 +69,10 @@
   
 ## 📌 Spring
 - [@AutoConfigureRestDocs](https://github.com/COBI-98/TIL/blob/main/Spring/%40AutoConfigureRestDocs.md)
+- [CustomException 정리](https://github.com/COBI-98/TIL/blob/main/Spring/CustomException.md)
 - [Rest-Assured](https://github.com/COBI-98/TIL/blob/main/Spring/RestAssured.md)
 - [Spring AOP 정리](https://github.com/COBI-98/TIL/blob/main/Spring/aspect_oriented_programming.md)
 - [Spring IoC와 DI 정리](https://github.com/COBI-98/TIL/blob/main/Spring/dependency_injection.md)
+- [Spring Security 테스트](https://github.com/COBI-98/TIL/blob/main/Spring/security_tdd01.md)
+- [Spring Security Oauth2.0 테스트](https://github.com/COBI-98/TIL/blob/main/Spring/security_tdd02.md)
   
