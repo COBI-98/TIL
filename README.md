@@ -49,7 +49,9 @@
 - [Java17 버전 정리](https://github.com/COBI-98/TIL/blob/main/Java/JDK17.md)
 - [Assert 키워드 정리](https://github.com/COBI-98/TIL/blob/main/Java/assertions.md)
 - [함수형 프로그래밍](https://github.com/COBI-98/TIL/blob/main/Java/functional_programming.md)
+- [Java 메서드 네이밍](https://github.com/COBI-98/TIL/blob/main/Java/method_naming.md)
 - [optional 클래스 정리](https://github.com/COBI-98/TIL/blob/main/Java/optional.md)
+- [Sealed Class](https://github.com/COBI-98/TIL/blob/main/Java/sealed.md)
 - [static 키워드 정리](https://github.com/COBI-98/TIL/blob/main/Java/static.md)
 - [스트림 정리](https://github.com/COBI-98/TIL/blob/main/Java/stream.md)
 - [Error와 Exception 정리](https://github.com/COBI-98/TIL/blob/main/Java/throwable.md)
@@ -75,4 +77,5 @@
 - [Spring IoC와 DI 정리](https://github.com/COBI-98/TIL/blob/main/Spring/dependency_injection.md)
 - [Spring Security 테스트](https://github.com/COBI-98/TIL/blob/main/Spring/security_tdd01.md)
 - [Spring Security Oauth2.0 테스트](https://github.com/COBI-98/TIL/blob/main/Spring/security_tdd02.md)
+- [SwaggerUI + Spring REST Docs 함께 사용하기](https://github.com/COBI-98/TIL/blob/main/Spring/swagger_restdocs_api.md)
   
