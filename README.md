@@ -48,6 +48,8 @@
 ## 📌 Java
 - [Java17 버전 정리](https://github.com/COBI-98/TIL/blob/main/Java/JDK17.md)
 - [Assert 키워드 정리](https://github.com/COBI-98/TIL/blob/main/Java/assertions.md)
+- [Enum 어떻게 사용해야할까?](https://github.com/COBI-98/TIL/blob/main/Java/enum.md)
+- [일급 컬렉션이란?](https://github.com/COBI-98/TIL/blob/main/Java/first_class_collection.md)
 - [함수형 프로그래밍](https://github.com/COBI-98/TIL/blob/main/Java/functional_programming.md)
 - [Java 메서드 네이밍](https://github.com/COBI-98/TIL/blob/main/Java/method_naming.md)
 - [optional 클래스 정리](https://github.com/COBI-98/TIL/blob/main/Java/optional.md)
