@@ -80,6 +80,88 @@ toString()을 재정의 하는 이유를 정리하자면 다음과 같다.
 
 <br>
 
+## 추가 toString() 파헤치기
+
+
+나는 toString() 을 사용할 때 다음과 같은 피드백을 받았다. 
+
+**비즈니스 로직과 UI 로직은 분리되어야한다.**
+
+>현재 객체의 상태를 보기 위한 로그 메시지 성격이 강하다면 toString()을 통해 구현하고, <br>
+ View에서 사용할 데이터라면 getter 메서드를 통해 데이터를 전달한다.
+
+해당 피드백은 상태를 보기위한 로그와 view에서 사용할 데이터는 <br>
+서로 다른 목적을 가지고있다는 것이다.
+
+두 가지 예시를 자동차를 나타내는 Car 클래스 코드로 풀어보려고 한다. <br>
+주어진 Car 클래스와 요구사항은 다음과 같다.
+
+Car 클래스
+  - 자동차 이름을 나타내는 name (String)
+  - 자동차의 위치를 나타내는 location (int)
+
+**기능 요구사항 (라운드 별 자동차 위치를 알려주세요 !)** 😎
+>ex) cobi : --
+
+<br>
+
+해당 기능 요구사항을 구현하기위해 <br> 
+toString() 과 <br>
+getter 메서드를 통한 필요한 데이터 전달로 view에서 구현 <br>
+ 어떤 것으로 구현해야할까?
+
+## **custom `toString()` 활용 vs getter 메서드를 통한 데이터 전달**
+```java
+public class Car {
+    private final String name;
+    private int location;
+
+    public Car(String name) {
+        this.name = name;
+        this.location = 0;
+    }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "name=" + name +
+                ", location=" + location +
+                '}';
+    }
+}
+```
+위와 같이 toString() 메서드를 오버라이딩하면, <br>
+해당 클래스의 객체를 출력할 때 간편하게 현재 상태를 확인할 수 있다.
+
+여기서 추가로 toString() 을 요구사항에 맞게 커스텀 한다면(view 로직 포함) <br> 
+다음과 같이 표현할 수 있을 것이다.
+```java
+    @Override
+    public String toString() {
+        return name + " : " + convertToSeparator();
+    }
+    
+    private String convertToSeparator() {
+        return "-".repeat(position);
+    }
+```
+
+커스텀하여 반환하게 한다면 view의 역할도 줄일 수 있으니 좋지 않을까?
+
+해당 방식으로 구현을 하게된다면, <br>
+로그를 위한 상태확인이 아니라, 화면 로직을 포함하게 되며 (단일 책임 원칙 위배) <br>
+toString의 역할에서도 벗어난다.
+
+<br>
+
+toString() 목적은 간결하면서 이해하기 쉬운 형태의 정보를 반환해야만 하기 때문이다.
+
+그렇기 때문에, View에서 사용할 데이터라면 getter 메서드를 통해 데이터를 전달해야만 한다는 사실을 알게되었다.
+
+비즈니스 로직과 UI 로직을 한 클래스가 담당하지 않도록 주의해야할 것 이다.  ☺️
+
+<br>
+
 ## 정리
 
 toString() 메서드는 디버깅이나 로깅을 할 때 객체의 내용을 쉽게 파악하기 위해 사용된다. <br> 객체의 상태를 문자열로 표현함으로써 프로그래머들이 코드를 분석하고 디버깅하는 데 도움을 주는 역할을 할 것이다.
@@ -88,3 +170,5 @@ toString() 메서드는 디버깅이나 로깅을 할 때 객체의 내용을 �
 
 ## reference
 [Java 에서 toString 메소드의 올바른 사용 용도에 대하여](https://hudi.blog/java-correct-purpose-of-tostring/)
+
+[[Java]toString() 파헤치기](https://yeonyeon.tistory.com/188)
