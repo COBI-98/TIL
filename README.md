@@ -38,8 +38,11 @@
 ## 📌CleanCode
 - [자바 명명 규칙](https://github.com/COBI-98/TIL/blob/main/CleanCode/java_naming_convetion.md)
 - [커밋 컨벤션](https://github.com/COBI-98/TIL/blob/main/CleanCode/commit_convention.md)
+- [인스턴스 변수를 줄여아하는 이유 정리](https://github.com/COBI-98/TIL/blob/main/Java/instance_variable.md)
+- [일급 컬렉션이란?](https://github.com/COBI-98/TIL/blob/main/Java/first_class_collection.md)
+- [Java 메서드 네이밍](https://github.com/COBI-98/TIL/blob/main/Java/method_naming.md)
 
-  
+
 ## 📌DataStructure
 - [트리](https://github.com/COBI-98/TIL/blob/main/DataStructure/Tree.md)
 - [덱](https://github.com/COBI-98/TIL/blob/main/DataStructure/deque.md)
@@ -50,16 +53,15 @@
 - [Assert 키워드 정리](https://github.com/COBI-98/TIL/blob/main/Java/assertions.md)
 - [Enum 어떻게 사용해야할까?](https://github.com/COBI-98/TIL/blob/main/Java/enum.md)
 - [EnumMap 정리](https://github.com/COBI-98/TIL/blob/main/Java/enumMap.md)
-- [일급 컬렉션이란?](https://github.com/COBI-98/TIL/blob/main/Java/first_class_collection.md)
 - [함수형 프로그래밍](https://github.com/COBI-98/TIL/blob/main/Java/functional_programming.md)
-- [Java 메서드 네이밍](https://github.com/COBI-98/TIL/blob/main/Java/method_naming.md)
 - [optional 클래스 정리](https://github.com/COBI-98/TIL/blob/main/Java/optional.md)
-- [리팩터링 순서 정리](https://github.com/COBI-98/TIL/blob/main/Java/refactor.md)
+- [refactor 순서 정리](https://github.com/COBI-98/TIL/blob/main/Java/refactor.md)
 - [Sealed Class](https://github.com/COBI-98/TIL/blob/main/Java/sealed.md)
 - [static 키워드 정리](https://github.com/COBI-98/TIL/blob/main/Java/static.md)
-- [스트림 정리](https://github.com/COBI-98/TIL/blob/main/Java/stream.md)
+- [stream 정리](https://github.com/COBI-98/TIL/blob/main/Java/stream.md)
 - [Error와 Exception 정리](https://github.com/COBI-98/TIL/blob/main/Java/throwable.md)
 - [toString 키워드](https://github.com/COBI-98/TIL/blob/main/Java/toString.md)
+
 
 ## 📌 Jpa
 - [JpaAuditing](https://github.com/COBI-98/TIL/blob/main/Jpa/jpaAuditing.md)
