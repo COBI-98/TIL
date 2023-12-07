@@ -79,4 +79,4 @@ DI를 사용하여 인스턴스 변수를 추가하는 방식
 
 
 ## reference
-[객체지향 생활체조 원칙] 규칙 7. 2개 이상의 인스턴스 변수를 가진 클래스를 쓰지 않는다](https://limdingdong.tistory.com/13)
+[객체지향 생활체조 원칙] 규칙 7. 2개 이상의 인스턴스 변수를 가진 클래스를 쓰지 않는다](htps://limdingdong.tistory.com/13)
