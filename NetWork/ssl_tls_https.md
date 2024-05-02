@@ -63,7 +63,63 @@ SSL/TLS 세션은 다음 핸드셰이크 과정을 거친 후에 구축된다.
 
 <br>
 
-## 정리
+## 진단방법
+외부(인터넷망)에서 사용하는 경우
+https://www.ssllabs.com/ssltest/ 로 SSL, TLS의 버전과 인증서, TLS버전별 취약점과 전자기기 지원의 여부 까지 간단하게 확인할 수 있지만,
+
+내부에서 사용하는 경우 URL를 통한 작업이 불가능하기 때문에 OpenSSL을 설치해서 확인할 수 있다.
+
+### **OpenSSL**
+OpenSSL은 Eric A. Young과 Tim Hudson이 만든 SSLeay에 기반을 두고 있으며 거의 모든 버전의 UNIX 계열 운영 체제(리눅스, 맥 OS X, 솔라리스, BSD 등) 및 OpenVMS, Windows에서 이용할 수 있다.
+ 
+
+OpenSSL은 TLS(Transport Layer Security)와 SSL(Secure Sockets Layer)의 프로토콜을 위한 다양한 기능을 갖춘 오픈소스 툴킷으로(C 언어로 작성) 중심 라이브러리 안에는
+
+기본적인 암호화 기능 및 여러 유틸리티 함수들이 구현이 되어있다.
+
+다음 openssl 명령어를 사용하면 현재 tls 의 자세한 정보를 확인할 수 있따.
+
+```bash
+openssl s_client -connect google.com:443 
+```
+
+출력 결과를 보면 프로토콜 버전, 암호 알고리즘, 세션 정보등 상세한 정보를 확인할 수 있다.
+```
+subject=/C=US/ST=California/L=Mountain View/O=Google Inc/CN=*.google.com
+issuer=/C=US/O=Google Inc/CN=Google Internet Authority G2
+---
+No client certificate CA names sent
+Peer signing digest: SHA256
+Server Temp Key: ECDH, P-256, 256 bits
+---
+SSL handshake has read 4548 bytes and written 443 bytes
+---
+New, TLSv1/SSLv3, Cipher is ECDHE-RSA-AES128-GCM-SHA256
+Server public key is 2048 bit
+Secure Renegotiation IS supported
+Compression: NONE
+Expansion: NONE
+No ALPN negotiated
+SSL-Session:
+    Protocol  : TLSv1.2
+    Cipher    : ECDHE-RSA-AES128-GCM-SHA256
+    Session-ID: 43AF49BE4F199E128046F88C1A591732E45AB2B87898F4D80FD232D1F52B46E2
+    Session-ID-ctx: 
+    Master-Key: 4A20442D07BB216DE4A61E7BD78350B5D1B92AEEDECE5E07229B267BA555D68543BF1EAC08D19F47E98AB3DB270D5438
+    Key-Arg   : None
+    PSK identity: None
+    PSK identity hint: None
+    SRP username: None
+    TLS session ticket lifetime hint: 100800 (seconds)
+    TLS session ticket:
+```
+
+<br>
 
 ## 참고 자료
+[SSL-TLS HTTPS 적용](https://github.com/baboleevan/web-service-hardening/blob/2e34e5fabe91d57ac185e31d8e4abbeb07b1110b/ssl-tls-https.md?plain=1)
+
+[HTTP Strict Transport Security - OWASP](https://www.owasp.org/index.php/HTTP_Strict_Transport_Security)
+
+[STS(Strict Transport Security) 및 보안 쿠키 설정](https://developers.google.com/web/fundamentals/security/encrypt-in-transit/turn-on-strict-transport-security-and-secure-cookies?hl=ko)
 
