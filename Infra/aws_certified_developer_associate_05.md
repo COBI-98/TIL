@@ -6,7 +6,7 @@
 - 인스턴스의 크기 확장
     - tc2.micro -> t2.large 
 - 데이터베이스와 같이 분산되지 않은 시스템에서 사용
-    - RDS, ElasticCache
+    - RDS, ElastiCache
 
 `하드웨어 한계 제한`
 
